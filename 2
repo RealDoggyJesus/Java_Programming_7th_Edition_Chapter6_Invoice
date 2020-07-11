@@ -1,0 +1,57 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package invoice;
+
+/**
+ *
+ * @author volum
+ */
+public class Invoice {  
+    private int voice;
+    private double balance;
+    private int month;
+    private int day;
+    private int year;
+    
+    public Invoice(){
+        this.voice = 0;
+        this.balance = 0;
+        this.month = 0;
+        this.day = 0;
+        this.year = 0;
+    }
+
+    public int getInvoice(){
+        return voice;
+    }  
+    public double getBalance(){
+        return balance;
+    }  
+    public int getMonth(){
+        return month;
+    }  
+    public int getDay(){
+        return day;
+    }  
+    public int getYear(){
+        return year;
+    }
+    public void setInvoice(int inputInvoice){
+        this.voice = inputInvoice;
+    }
+    public void setBalance(double inputBalance){
+        this.balance = inputBalance;
+    }
+    public void setMonth(int inputMonth){
+        this.month = inputMonth;
+    }
+    public void setDay(int inputDay){
+        this.day = inputDay;
+    }
+    public void setYear(int inputYear){
+        this.year = inputYear;
+    }
+            }
