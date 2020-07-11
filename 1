@@ -1,0 +1,46 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package invoice;
+
+/**
+ *
+ * @author volum
+ */
+public class TestInvoice {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        voice = Invoice.getVoice;
+        balance = Invoice.getBalance;
+        day = Invoice.getDay;
+        month = Invoice.getMonth;
+        year = Invoice.getYear;
+
+        Invoice Voice = new Invoice(1001, 200.23, 2, 22, 2016);
+        
+        public TestInvoice(int spe, double bal, int month, int day, int year){
+            if (voice < 1000){
+            voice = 0;
+                if (month < 1 || month > 12){
+                month = 0;
+                    if(day < 1 || day > 31){
+                    day = 0;
+                        if (year > 2017 || year < 2011){
+                        year = 0;
+                        }
+                    }
+                }
+            }
+        }
+        System.out.println("Invoice Number >>" + Invoice.getInvoice());
+        System.out.println("Balance Due >>" + Invoice.getBalance());
+        System.out.println("Date >>" + Invoice.getMonth() + "/" + Invoice.getDay() + "/" + 
+                Invoice.getYear());
+    }
+    
+}
